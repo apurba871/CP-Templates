@@ -1,6 +1,6 @@
-void prime_factorize(ll n) {
-    ll ctr;
-    for (ll i = 2; i <= sqrt(n); i++) {
+void prime_factorize(long long n) {
+    long long ctr;
+    for (long long i = 2; i <= sqrt(n); i++) {
         ctr = 0;
         while (n % i == 0) {
             n = n / i;
