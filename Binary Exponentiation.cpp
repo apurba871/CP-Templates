@@ -14,7 +14,7 @@ long long iterative_binary_exponentiation(long long base, long long exp) {
         if (exp & 1)
             res *= base;
         base *= base;
-        exp >>= 1;
+        exp >>= 1; //exp /= 2
     }
     return res;
 }
